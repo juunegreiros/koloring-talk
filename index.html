@@ -1,0 +1,624 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="title">
+					<h1>
+						Collaborative koloring with Kotlin
+					</h1>
+				</section>
+				<section class="speakers">
+					<section class="speaker">
+						<img src="images/talysson.jpg" alt="">
+						<h2>Talysson</h2>
+						<ul>
+							<li>Codeminer42</li>
+							<li>Web Developer</li>
+							<li>@talyssonoc</li>
+						</ul>
+					</section>
+					<section class="speaker">
+						<img src="images/juliana.jpg" alt="">
+						<h2>Juliana</h2>
+						<ul>
+							<li>Alura</li>
+							<li>Instructor and Web Developer</li>
+							<li>Rails Girls Sorocaba and SorocabaJS</li>
+							<li>@juunegreiros</li>
+						</ul>
+					</section>
+					<section>
+						<img src="images/alura.jpg" alt="">
+					</section>
+					<section>
+						<img src="images/hipster.jpg" alt="">
+					</section>
+				</section>
+				<section class="motivation">
+
+					<section class="main-topic">
+						<h2>1. Motivation</h2>
+						<h4>Where the idea comes from</h3>
+					</section>
+					<section>
+						<h1>The CONF</h1>
+					</section>
+					<section>
+						<h1>The CONF</h1>
+						<h4 class="acronym">
+							<span>C</span>ode <span>ON</span>ly and <span>F</span>un</h4>
+					</section>
+					<section>
+						<h4 class="acronym">
+							Code ONly and <span class="big">Fun</span>
+						</h4>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Fun</span>
+						</h4>
+	
+						<h1>Games</h1>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Fun</span>
+						</h4>
+	
+						<h1>Games</h1>
+						<ul>
+							<li>Tower Defense</li>
+							<li>Unreal</li>
+							<li>Blueprint</li>
+						</ul>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Fun</span>
+						</h4>
+	
+						<h1>Architecture</h1>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Fun</span>
+						</h4>
+	
+						<h1>Architecture</h1>
+						<img src="images/ted.jpg" alt="">
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Fun</span>
+						</h4>
+	
+						<h1>Game Architecture</h1>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Code</span> ONly and Fun
+						</h4>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Code ONly</span> and Fun
+						</h4>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Code ONly</span> and Fun
+						</h4>
+						<h1>Kotlin</h1>
+					</section>
+					<section>
+						<h4 class="acronym">
+							<span class="big">Code</span> ONly and <span class="big">Fun</span>
+						</h4>
+						<h1>Kotlin</h1>
+					</section>
+				</section>
+				<section class="almight-idea">
+					<section class="main-topic">
+						<h2>2. The Almight Idea</h2>
+					</section>
+					<section class="sub-topic">
+						<h3>Interactive</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Competitive</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Prizes!!!</h3>
+					</section>
+					<section class="amazing-idea">
+						<h3>Free Drawing tool!</h3>
+					</section>
+					<section class="first-dick">
+						<img src="images/dick.png" alt="">
+						<h5>Please, don't be that guy</h5>
+					</section>
+				</section>
+				<section class="actual-idea">
+					<section class="main-topic">
+						<h2>3. The <span class="wrong-word">almight</span> actual idea</h2>
+					</section>
+					<section class="sub-topic">
+						<h3>Hard to be trolled</h3>
+					</section>
+					<section>
+						<h2><span class="wrong-word">Copied</span> Get inspired by an idea</h2>
+					</section>
+					<section>
+						<img src="images/reddit.png" alt="" class="no-border">
+					</section>
+					<section>
+						<img src="images/reddit-page.PNG" alt="" class="no-border">
+					</section>
+					<section>
+						<h2>/r/place</h2>
+					</section>
+					<section>
+							<img src="images/rplace.gif" alt="" class="big-image">
+					</section>
+					<section>
+						<img src="images/rplace.png" alt="" class="big-image">
+					</section>
+					<section class="sub-topic">
+						<h3>What about the competition?</h3>
+					</section>
+					<section>
+						<img src="images/brazil-argentina-finlandia.PNG" alt="">
+					</section>
+				</section>
+				<section class="running-the-app">
+					<section class="main-topic">
+						<h2>4. Running the app</h2>
+					</section>
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section>
+						<h3 class="background-blue">Enter the website</h3>
+						<div>
+						</div>
+					</section>
+					<section>
+						<h3 class="background-blue">Nickname</h3>
+					</section>
+					<section>
+						<h3 class="background-blue">30 seconds</h3>
+					</section>
+					<section>
+						<h3 class="background-blue">Don't cheat</h3>
+					</section>
+					<section>
+						<h3 class="background-blue">Socialize</h3>
+					</section>
+					<section>
+						<h3 class="background-blue">DON'T LEAVE THERE'S NO LOGOUT</h3>
+					</section>
+					<section>
+						<h3 class="background-blue">Don't be that guy</h3>
+						<img src="images/dick2.png" alt="" class="small-dick">
+					</section>
+					<section>
+						<h3 class="background-blue">Get the prizeeeeee</h3>
+					</section>
+				</section>
+				<section class="kotlin">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>5. So, Kotlin</h2>
+					</section>
+					<section>
+						<h3>
+							Kotlin Everywhere!
+						</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Challenge</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Performance</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>React-kotlin</h3>
+					</section>
+					<section>
+						<h3>What could go wrong?</h3>
+					</section>
+					<section>
+						<h3>The import thing is to participate</h3>
+					</section>
+				</section>
+				<section class="more-about-kotlin">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>6. Tell me more about Kotlin</h2>
+						<h4>Aka try to convince me</h4>
+					</section>
+					<section>
+						<h3>What java should have been</h3>
+					</section>
+					<section>
+						<h3>Multiparadigm language</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Lambdas</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Lambdas</h3>
+						<img src="images/lambda.png" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>Type Inference</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Type Inference</h3>
+						<img src="images/typeInference.png" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>Extensions</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Extensions</h3>
+						<img src="images/extensions.png" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>Coroutines!!!</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Coroutines!!!</h3>
+						<img src="images/coroutines.png" alt="">
+					</section>
+					<section>
+						<h2>Performance</h2>
+						<h4>We really don't need it</h4>
+					</section>
+					<section>
+						<h2>Performance</h2>
+						<h4>But what if we need it?</h4>
+					</section>
+				</section>
+				<section class="async-web-server">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>7. Asynchronous web server with Kotlin</h2>
+					</section>
+					<section>
+						<h2>HTTP 4K</h2>
+					</section>
+					<section>
+						<h2>HTTP 4K</h2>
+						<h4>No coroutines</h4>
+					</section>
+					<section>
+						<h1>KTOR</h1>
+					</section>
+					<section>
+						<h2>KTOR</h2>
+						<img src="images/ktor.png" alt="">
+					</section>
+				</section>
+				<section class="front-end">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>8. And the front-end?</h2>
+						<h4>We wanted mooooooore</h4>
+					</section>
+					<section>
+						<h2>react-kotlin</h2>
+					</section>
+					<section>
+						<h2>create-react-kotlin-app</h2>
+					</section>
+					<section>
+						<h2>CSS in <span class="wrong-word">JS</span> Kotlin</h2>
+					</section>
+					<section>
+						<h2>CSS in <span class="wrong-word">JS</span> Kotlin</h2>
+						<img src="images/css-in-js.png" alt="">
+					</section>
+					<section>
+						<h2>Typed CSS</h2>
+					</section>
+
+				</section>
+				<section class="how-we-dit-it">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>9. How we did it?</h2>
+						<h4>Hold my beer, were are going to do a real time app with Kotlin in the whole stack</h4>
+					</section>
+					<section class="sub-topic">
+						<h3>Real time app</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Websockets</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Modern browsers</h3>
+					</section>
+					<section class="background-blue">
+						<h3>KTOR</h3>
+					</section>
+					<section class="background-blue">
+						<h3>KTOR</h3>
+						<img src="images/ktor-websockets.png" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>Messages</h3>
+					</section>
+					<section>
+						<h3>Types of messages:</h3>
+						<ul>
+							<li>CURRENT_STATE</li>
+							<li>AUTHENTICATE</li>
+							<li>PAINT</li>
+						</ul>
+					</section>
+					<section class="sub-topic">
+						<h3>Persistence</h3>
+					</section>
+					<section class="background-blue">
+						<h3>No inserts</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Read all cells every time</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Insert only when a painter shows up</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Minimum lock possible</h3>
+					</section>
+					<section>
+						<img src="images/redis.png" alt="">
+					</section>
+					<section>
+						<h2>How does Redis works?</h2>
+					</section>
+					<section>
+						<h2>How does Redis works?</h2>
+						<h4>How we hacked its limitations with parallel processing</h4>
+					</section>
+					<section>
+						<h2>How does Redis works?</h2>
+						<h4>How we hacked its limitations with parallel processing</h4>
+						<img src="images/hacking-redis.png" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>Key/value</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Persist hashes</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Fetch more than one hash at a time</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Front connects in the websocket</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Front connects in the websocket</h3>
+						<img src="images/front-end-websocket.png" alt="">
+					</section>
+					<section class="sub-topic">
+						<h3>Front receive current_status</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Front receive current_status</h3>
+						<img src="images/front-end-current-status.png" alt="">
+					</section>
+					<section class="sub-topic">
+						<h3>React is amazing</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>React is amazing</h3>
+						<img src="images/adiciona-status-canvas.png" alt="">
+					</section>
+					<section>
+						<h2>A wild painter appears</h2>
+						<img src="images/painter connects.png" alt="">
+					</section>
+					<section>
+						<h2>and click a cell</h2>
+						<img src="images/paint-message-update.png" alt="">
+					</section>
+					<section>
+						<h2>It's super effective!</h2>
+					</section>
+					<section class="sub-topic">
+						<h3>Paint message</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Paint message</h3>
+						<img src="images/paint-message-handle-click.png" alt="">
+					</section>
+					<section class="sub-topic">
+						<h3>Paint message</h3>
+						<img src="images/paint-message-update.png" alt="">
+					</section>
+					<section>
+						<h3>Check if painter can paint</h3>
+						<img src="images/painter can paint.png" alt="">
+					</section>
+					<section>
+						<h3>Handle paint message</h3>
+						<img src="images/handle paint message.png" alt="">
+					</section>
+					<section>
+						<h3>Update Redis</h3>
+					</section>
+					<section>
+						<h3>Update Redis</h3>
+						<img src="images/update redis.png" alt="">
+					</section>
+					<section>
+						<h3>Resend the paint message to everyone, including the painter</h3>
+					</section>
+					<section>
+						<h3>Resend the paint message to everyone, including the painter</h3>
+						<img src="images/resend message to every painter.png" alt="">
+					</section>
+					<section>
+						<h3>Ok, and what happens when we update the page?</h3>
+					</section>
+					<section>
+						<h3>Ok, and what happens when we update the page?</h3>
+						<img src="images/update-message.png" alt="">
+					</section>
+					<section>
+						<h3>That's the good part :))</h3>
+					</section>
+				</section>
+				<section class="the-learn">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>10. The learn</h2>
+					</section>
+					<section class="sub-topic">
+						<h3>Front</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Always behind react</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Docs are horrible</h3>
+					</section>
+					<section class="background-blue">
+						<h3>I mean, really</h3>
+						<img src="images/docs1.jpg" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>I mean, really</h3>
+						<img src="images/docs2.jpg" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>I mean, really</h3>
+						<img src="images/docs3.jpg" alt="">
+					</section>
+					<section class="background-blue">
+						<h3>Stackoverflow? Pfff</h3>
+					</section>
+					<section class="background-blue">
+						<h3>IntelliJ</h3>
+					</section>
+					<section class="background-blue">
+						<h3>JSX and CSS</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Wtf is that plus sign?</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Passing props to another components</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Setup is coooooooool</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Npm</h3>
+					</section>
+					<section class="sub-topic">
+						<h3>Backend</h3>
+					</section>
+					<section class="background-blue">
+						<h3>The Java compatibility promise</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Java community</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Performance</h3>
+					</section>
+					<section class="background-blue">
+						<h3>Gradle(w)</h3>
+					</section>
+				</section>
+				<section class="some-conclusions">
+					<div class="website-link">
+						<a href="#">bit.ly/kolors</a>
+						<img src="images/qrcode.png" alt="">
+					</div>
+					<section class="main-topic">
+						<h2>Some conclusions</h2>
+					</section>
+					<section>
+						<h3>Kotlin is very cool</h3>
+					</section>
+					<section>
+						<h3>We learn a lot</h3>
+					</section>
+					<section>
+						<h3>Take care when choosing your tech stack</h3>
+					</section>
+					<section>
+						<h3>Play that thing!!!11</h3>
+					</section>
+					<section>
+						<h2>Thanks!</h2>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

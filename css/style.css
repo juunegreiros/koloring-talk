@@ -1,0 +1,90 @@
+.slides {
+  border: white 15px solid;
+  margin: 50px;
+}
+
+.title {
+  background-color: #3376b9;
+}
+.title h1 {
+  color: #fff;
+}
+
+.speaker {
+  background-color: #44bc6b;
+  color: #fff;
+}
+
+.speaker img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+
+.acronym span {
+  color: #4540be;
+}
+
+.acronym span.big {
+  font-size: 4rem;
+}
+
+.main-topic {
+  background-color: #4540be;
+}
+
+.main-topic h2, .main-topic h4{
+  color: #fff;
+}
+
+.sub-topic {
+  background: #d57c09;
+}
+.sub-topic h3 {
+  color: #fff;
+}
+
+.wrong-word {
+  text-decoration: line-through;
+}
+
+.reveal .no-border {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal .big-image {
+  object-fit: cover;
+  max-height: 600px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.background-blue {
+  background: #3feff8;
+}
+
+.reveal .website-link {
+  position: fixed;
+  right: -30%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-link img {
+  width: 250px;
+  height: auto;
+}
+
+.reveal .small-dick {
+  width: 150px;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
